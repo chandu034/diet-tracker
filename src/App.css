@@ -1,38 +1,35 @@
+/* App.css */
+
 .App {
-  text-align: center;
+    text-align: center;
+    background-color: #c7ddcc; /* Mint */
+    min-height: 100vh;
+    padding: 40px; /* Extra padding for better spacing */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    color: #16123f; /* Navy */
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+    background-color: #ffe26a; /* Fresh Lemon */
+    color: #16123f; /* Navy */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+    transition: background-color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+    background-color: #abd699; /* Light Lime */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:not(:last-child) {
+    margin-right: 10px;
 }

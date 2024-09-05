@@ -1,0 +1,50 @@
+/* addmeal.css */
+
+.container {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 30px auto; /* Centered and spaced from other content */
+    color: #16123f; /* Navy */
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #75c9b7; /* Teal border for emphasis */
+}
+
+.heading {
+    color: #75c9b7; /* Teal */
+    text-align: center;
+}
+
+.label {
+    color: #16123f; /* Navy */
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #75c9b7; /* Teal border */
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #f0f8f5; /* Light background for input fields */
+}
+
+.button {
+    background-color: #ffe26a; /* Fresh Lemon */
+    color: #16123f; /* Navy */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #abd699; /* Light Lime */
+}

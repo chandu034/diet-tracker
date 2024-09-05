@@ -1,0 +1,41 @@
+/* MealList.css */
+
+.meal-list-container {
+    background-color: #c7ddcc; /* Mint background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto; /* Center the list */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.meal-list-title {
+    color: #16123f; /* Navy */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.meal-item {
+    background-color: #ffffff; /* White for contrast */
+    border-left: 5px solid #75c9b7; /* Teal border on the left */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 1rem;
+    color: #16123f; /* Navy */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meal-item strong {
+    font-size: 1.1rem;
+    color: #75c9b7; /* Teal for meal name */
+}
+
+.meal-date {
+    color: #abd699; /* Light lime for the date */
+    font-size: 0.9rem;
+}

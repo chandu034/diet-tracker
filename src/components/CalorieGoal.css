@@ -1,0 +1,53 @@
+/* CalorieGoal.css */
+
+.calorie-widget {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;  /* Ensure it stays on top */
+}
+
+.calorie-widget h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.calorie-widget .goal-input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calorie-widget .progress-bar {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.calorie-widget p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
